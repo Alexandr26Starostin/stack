@@ -310,7 +310,6 @@ errors_t stk_dump (stk_t* ptr_stk, const char* file, const int line)
 	//-----------------------------------------------------------------------------------------------------------------
 
 	#ifdef HASH_STK
-	
 		if (error_status == HASH_ERROR)
 		{
 			printf ("ERROR   HASH_ERROR  in file: %s, in line: %d\n", file, line);
