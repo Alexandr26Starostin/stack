@@ -10,7 +10,7 @@
 	typedef uint64_t hash_t;
 
 	#ifdef CANARY_STK_DATA
-		#define COUNT_HASH                                                                                                                             \
+		#define COUNT_HASH;                                                                                                                             \
 			hash_t hash_1 = hash ((char*) ptr_stk, sizeof (stk_t) - sizeof (hash_t) * 2);                                                              \
 		                                                                                                                                               \
 			char* ptr_memory = (char*) (*ptr_stk).data - sizeof (canary_t);                                                                            \
@@ -18,7 +18,7 @@
 		                                                                                                                                               \
 			hash_t hash_2 = hash (ptr_memory, len_data);                                          
 	#else   
-		#define COUNT_HASH                                                                                                                             \
+		#define COUNT_HASH;                                                                                                                             \
 			hash_t hash_1 = hash ((char*) ptr_stk, sizeof (stk_t) - sizeof (hash_t) * 2);                                                              \
 		                                                                                                                                               \
 			char* ptr_memory = (char*) (*ptr_stk).data;                                                                                                \
