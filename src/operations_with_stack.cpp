@@ -10,7 +10,7 @@
 
 errors_t static stk_realloc_up   (stk_t* ptr_stk);
 errors_t static stk_realloc_down (stk_t* ptr_stk);
-
+errors_t static my_memset        (element_t* ptr, int poison_element, size_t len);
 //---------------------------------------------------------------------------------------------------------
 
 errors_t stk_ctor (stk_t* ptr_stk, size_t start_capacity)
@@ -24,7 +24,7 @@ errors_t stk_ctor (stk_t* ptr_stk, size_t start_capacity)
 
 	#ifdef CANARY_STK_DATA
 		size_t place_canary_data = 2;
-		size_t size_memory       = start_capacity * sizeof (element_t) + place_canary_data * sizeof (canary_t) + (8 - (start_capacity * sizeof (element_t)) % 8) * sizeof (char);
+		size_t size_memory       = start_capacity * sizeof (element_t) + place_canary_data * sizeof (canary_t) + (8 - (start_capacity * sizeof (element_t)) % 8) * sizeof (char);      
 	#else
 		size_t place_canary_data = 0;
 		size_t size_memory       = start_capacity * sizeof (element_t);
@@ -36,8 +36,6 @@ errors_t stk_ctor (stk_t* ptr_stk, size_t start_capacity)
 	char* ptr_memory   = (char*) calloc (1, size_memory);  
 	if (ptr_memory == NULL) {printf ("PTR_MEMORY_ERROR in file %s, in line %d \n\tptr_memory == NULL", __FILE__, __LINE__); return PTR_MEMORY_ERROR;}
 
-	if (memset (ptr_memory, poison, size_memory) == NULL)	{printf ("MEMSET_ERROR in file %s, in line %d \n\tptr_memory == NULL", __FILE__, __LINE__); return MEMSET_ERROR;}
-
 	#ifdef CANARY_STK_DATA 
 		(*ptr_stk).data = (element_t*) (ptr_memory + sizeof (canary_t));
 		
@@ -46,6 +44,9 @@ errors_t stk_ctor (stk_t* ptr_stk, size_t start_capacity)
 	#else 
 		(*ptr_stk).data = (element_t*) (ptr_memory);
 	#endif
+
+	size_t size_memset = start_capacity;
+	my_memset ((*ptr_stk).data, poison, size_memset);
 
 	#ifdef HASH_STK
 		count_hash (ptr_stk);
@@ -175,17 +176,12 @@ errors_t static stk_realloc_up (stk_t* ptr_stk)
 
 		*((canary_t*) ptr_memory)                                                                                                                      = canary;
 		*((canary_t*) ((char*) ((*ptr_stk).data) + new_capacity * sizeof (element_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char))) = canary;
-
-		size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size) * sizeof (element_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char);
-
-		if (memset ((*ptr_stk).data + (*ptr_stk).size, poison, len_poison) == NULL) {printf ("MEMSET_ERROR in file %s, in line %d \n\tptr_memory == NULL", __FILE__, __LINE__); return MEMSET_ERROR;}
 	#else 
 		(*ptr_stk).data = (element_t*) ptr_memory;
-
-		size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size) * sizeof (element_t);
-
-		if (memset ((*ptr_stk).data + (*ptr_stk).size, poison, len_poison) == NULL) {printf ("MEMSET_ERROR in file %s, in line %d \n\tptr_memory == NULL", __FILE__, __LINE__); return MEMSET_ERROR;}
 	#endif	
+
+	size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size);
+	my_memset ((*ptr_stk).data + (*ptr_stk).size, poison, len_poison);
 
 	#ifdef HASH_STK
 		count_hash (ptr_stk);
@@ -219,18 +215,12 @@ errors_t static stk_realloc_down (stk_t* ptr_stk)
 
 		*((canary_t*) ptr_memory)                                                                                                                      = canary;
 		*((canary_t*) ((char*) ((*ptr_stk).data) + new_capacity * sizeof (element_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char))) = canary;
-
-		size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size) * sizeof (element_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char);
-
-		if (memset ((*ptr_stk).data + (*ptr_stk).size, poison, len_poison) == NULL) {printf ("MEMSET_ERROR in file %s, in line %d \n\tptr_memory == NULL", __FILE__, __LINE__); return MEMSET_ERROR;}
 	#else 
 		(*ptr_stk).data = (element_t*) ptr_memory;
-
-		size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size) * sizeof (element_t);
-
-		if (memset ((*ptr_stk).data + (*ptr_stk).size, poison, len_poison) == NULL) {printf ("MEMSET_ERROR in file %s, in line %d \n\tptr_memory == NULL", __FILE__, __LINE__); return MEMSET_ERROR;}
 	#endif	
 	
+	size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size);
+	my_memset ((*ptr_stk).data + (*ptr_stk).size, poison, len_poison);
 
 	#ifdef HASH_STK
 		count_hash (ptr_stk);
@@ -352,4 +342,17 @@ errors_t stk_dump (stk_t* ptr_stk, const char* file, const int line)
 	}
 
 	return error_status;
+}
+
+
+errors_t static my_memset (element_t* ptr, int poison_element, size_t len)
+{
+	assert (ptr);
+
+	for (size_t index = 0; index < len; index++)
+	{
+		ptr[index] = (element_t) poison_element;
+	}
+
+	return NOT_ERROR;
 }
