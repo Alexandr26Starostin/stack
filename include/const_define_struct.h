@@ -100,11 +100,11 @@ enum errors_t
 #include "stk_error.h"
 
 #ifdef DEBUG_ALL
-	#define STK_ASSERT (ptr_stk, __FILE__, __LINE__);
+	#define STK_ASSERT(ptr_stk, __FILE__, __LINE__)
 
 #else
 	#ifdef DEBUG_ASSERT
-		#define STK_ASSERT (ptr_stk, __FILE__, __LINE__);         \
+		#define STK_ASSERT(ptr_stk, __FILE__, __LINE__)        \
 																  \
 			if ((stk_error (ptr_stk)) != NOT_ERROR)               \
 			{                                                     \
@@ -112,7 +112,7 @@ enum errors_t
 				return (stk_error (ptr_stk));                     \
 			}                                
 	#else 
-		#define STK_ASSERT (ptr_stk, __FILE__, __LINE__);         \
+		#define STK_ASSERT(ptr_stk, __FILE__, __LINE__)         \
 			if ((stk_error (ptr_stk)) != NOT_ERROR)               \
 			{                                                     \
 				stk_dump (ptr_stk, __FILE__, __LINE__);           \

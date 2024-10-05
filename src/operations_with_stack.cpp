@@ -24,7 +24,7 @@ errors_t stk_ctor (stk_t* ptr_stk, size_t start_capacity)
 
 	#ifdef CANARY_STK_DATA
 		size_t place_canary_data = 2;
-		size_t size_memory       = start_capacity * sizeof (element_t) + place_canary_data * sizeof (canary_t) + (8 - start_capacity % 8) * sizeof (char);
+		size_t size_memory       = start_capacity * sizeof (element_t) + place_canary_data * sizeof (canary_t) + (8 - (start_capacity * sizeof (element_t)) % 8) * sizeof (char);
 	#else
 		size_t place_canary_data = 0;
 		size_t size_memory       = start_capacity * sizeof (element_t);
@@ -41,8 +41,8 @@ errors_t stk_ctor (stk_t* ptr_stk, size_t start_capacity)
 	#ifdef CANARY_STK_DATA 
 		(*ptr_stk).data = (element_t*) (ptr_memory + sizeof (canary_t));
 		
-		*((canary_t*) ptr_memory)                                                                                                   = canary;
-		*((canary_t*) ((char*) ((*ptr_stk).data) + start_capacity * sizeof (element_t) + (8 - start_capacity % 8) * sizeof (char))) = canary;
+		*((canary_t*) ptr_memory)                                                                                                                           = canary;
+		*((canary_t*) ((char*) ((*ptr_stk).data) + start_capacity * sizeof (element_t) + (8 - (start_capacity * sizeof (element_t))  % 8) * sizeof (char))) = canary;
 	#else 
 		(*ptr_stk).data = (element_t*) (ptr_memory);
 	#endif
@@ -159,7 +159,7 @@ errors_t static stk_realloc_up (stk_t* ptr_stk)
 
 	#ifdef CANARY_STK_DATA
 		size_t place_canary_data = 2;
-		size_t size_memory       = new_capacity * sizeof (element_t) + place_canary_data * sizeof (canary_t) + (8 - 8 % new_capacity) * sizeof (char); 
+		size_t size_memory       = new_capacity * sizeof (element_t) + place_canary_data * sizeof (canary_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char); 
 		char*  ptr_realloc       = (char*) (*ptr_stk).data - sizeof (canary_t);
 	#else
 		size_t place_canary_data = 0;
@@ -173,10 +173,10 @@ errors_t static stk_realloc_up (stk_t* ptr_stk)
 	#ifdef CANARY_STK_DATA
 		(*ptr_stk).data = (element_t*) (ptr_memory + sizeof (canary_t));
 
-		*((canary_t*) ptr_memory)                                                                                               = canary;
-		*((canary_t*) ((char*) ((*ptr_stk).data) + new_capacity * sizeof (element_t) + (8 - new_capacity % 8) * sizeof (char))) = canary;
+		*((canary_t*) ptr_memory)                                                                                                                      = canary;
+		*((canary_t*) ((char*) ((*ptr_stk).data) + new_capacity * sizeof (element_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char))) = canary;
 
-		size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size) * sizeof (element_t) + (8 - new_capacity % 8) * sizeof (char);
+		size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size) * sizeof (element_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char);
 
 		if (memset ((*ptr_stk).data + (*ptr_stk).size, poison, len_poison) == NULL) {printf ("MEMSET_ERROR in file %s, in line %d \n\tptr_memory == NULL", __FILE__, __LINE__); return MEMSET_ERROR;}
 	#else 
@@ -203,7 +203,7 @@ errors_t static stk_realloc_down (stk_t* ptr_stk)
 
 	#ifdef CANARY_STK_DATA
 		size_t place_canary_data = 2;
-		size_t size_memory       = new_capacity * sizeof (element_t) + place_canary_data * sizeof (canary_t) + (8 - 8 % new_capacity) * sizeof (char);
+		size_t size_memory       = new_capacity * sizeof (element_t) + place_canary_data * sizeof (canary_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char);
 		char*  ptr_realloc       = (char*) (*ptr_stk).data - sizeof (canary_t);
 	#else
 		size_t place_canary_data = 0;
@@ -217,10 +217,10 @@ errors_t static stk_realloc_down (stk_t* ptr_stk)
 	#ifdef CANARY_STK_DATA
 		(*ptr_stk).data = (element_t*) (ptr_memory + sizeof (canary_t));
 
-		*((canary_t*) ptr_memory)                                                                                               = canary;
-		*((canary_t*) ((char*) ((*ptr_stk).data) + new_capacity * sizeof (element_t) + (8 - new_capacity % 8) * sizeof (char))) = canary;
+		*((canary_t*) ptr_memory)                                                                                                                      = canary;
+		*((canary_t*) ((char*) ((*ptr_stk).data) + new_capacity * sizeof (element_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char))) = canary;
 
-		size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size) * sizeof (element_t) + (8 - new_capacity % 8) * sizeof (char);
+		size_t len_poison = ((*ptr_stk).capacity - (*ptr_stk).size) * sizeof (element_t) + (8 - (new_capacity * sizeof (element_t)) % 8) * sizeof (char);
 
 		if (memset ((*ptr_stk).data + (*ptr_stk).size, poison, len_poison) == NULL) {printf ("MEMSET_ERROR in file %s, in line %d \n\tptr_memory == NULL", __FILE__, __LINE__); return MEMSET_ERROR;}
 	#else 
@@ -285,7 +285,7 @@ errors_t stk_dump (stk_t* ptr_stk, const char* file, const int line)
 		
 			PRINT;
 
-			printf ("\t canary_true == %x\n", canary);
+			printf ("\t canary_true == %lx\n", canary);
 			printf ("\t canary_1 or canary_2 != canary_true\n\n");
 
 			return CANARY_STK_ERROR;
@@ -302,7 +302,7 @@ errors_t stk_dump (stk_t* ptr_stk, const char* file, const int line)
 			
 			PRINT;
 
-			printf ("\t canary_true == %x\n", canary);
+			printf ("\t canary_true == %lx\n", canary);
 			printf ("\t canary_3 or canary_4 != canary_true\n\n");
 		}
 	#endif
