@@ -73,6 +73,7 @@ errors_t stk_ctor (stk_t* ptr_stk, size_t start_capacity)
 errors_t stk_dtor (stk_t* ptr_stk)
 {
 	assert (ptr_stk);
+	assert ((*ptr_stk).data);
 
 	(*ptr_stk).size     = 0;
 	(*ptr_stk).capacity = 0;

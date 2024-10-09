@@ -1,0 +1,5925 @@
+DUMP  in file: src/main.cpp, in line: 14
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b72b8             
+	 size     == 0            
+	 capacity == 1            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -5490296024952802585
+	 hash_stk_data == 3564024498204958339
+
+
+	 elements of stack:
+
+
+DUMP  in file: src/main.cpp, in line: 21
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 66            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -1775427473937505564
+	 hash_stk_data == 5748141211324307174
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == 59
+	 	 [59] == 60
+	 	 [60] == 61
+	 	 [61] == 62
+	 	 [62] == 63
+	 	 [63] == 64
+	 	 [64] == 65
+	 	 [65] == 66
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 65            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -1147711594284644537
+	 hash_stk_data == -549503079845769118
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == 59
+	 	 [59] == 60
+	 	 [60] == 61
+	 	 [61] == 62
+	 	 [62] == 63
+	 	 [63] == 64
+	 	 [64] == 65
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 64            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 1753866961001232934
+	 hash_stk_data == -3786350149170892411
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == 59
+	 	 [59] == 60
+	 	 [60] == 61
+	 	 [61] == 62
+	 	 [62] == 63
+	 	 [63] == 64
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 63            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 8921306496550406777
+	 hash_stk_data == -6962657885144626301
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == 59
+	 	 [59] == 60
+	 	 [60] == 61
+	 	 [61] == 62
+	 	 [62] == 63
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 62            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 4147856191417589336
+	 hash_stk_data == -7444477792253175846
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == 59
+	 	 [59] == 60
+	 	 [60] == 61
+	 	 [61] == 62
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 61            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 171186201487810747
+	 hash_stk_data == -7617441230586675102
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == 59
+	 	 [59] == 60
+	 	 [60] == 61
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 60            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -4602264103645006694
+	 hash_stk_data == 261589794628391161
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == 59
+	 	 [59] == 60
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 59            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 3388782008729336061
+	 hash_stk_data == -7671003661602959229
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == 59
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 58            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -1384668296403481380
+	 hash_stk_data == 328378938183760478
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == 58
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 57            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -5361338286333259969
+	 hash_stk_data == -6528008989539105694
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == 57
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 56            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 8311955482243474206
+	 hash_stk_data == 3737359803004744317
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == 56
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 55            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -5615515746827867279
+	 hash_stk_data == 1503996863375249795
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == 55
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 54            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 8057778021748866896
+	 hash_stk_data == 4366078658769945298
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == 54
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 53            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 4081108031819088307
+	 hash_stk_data == -4301394483131134878
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == 53
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 52            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -692342273313729134
+	 hash_stk_data == 2714980699424340465
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == 52
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 51            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 7298703839060613621
+	 hash_stk_data == 4037486961743011459
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == 51
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 50            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 2525253533927796180
+	 hash_stk_data == 5998282719746886998
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == 50
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 49            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -1451416456001982409
+	 hash_stk_data == 5151900712187779170
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == 49
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 48            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -6224866761134799850
+	 hash_stk_data == -4272862328737643659
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == 48
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 47            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -4407159833032113047
+	 hash_stk_data == -6296902296086222973
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == 47
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 46            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -9180610138164930488
+	 hash_stk_data == -5968270992220963382
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == 46
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 45            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 5289463945614842539
+	 hash_stk_data == -1958190188145797022
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == 45
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 44            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 516013640482025098
+	 hash_stk_data == -3291656747374738711
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == 44
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 43            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 8507059752856367853
+	 hash_stk_data == 6219506295495253123
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == 43
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 42            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 3733609447723550412
+	 hash_stk_data == -8055864583024783282
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == 42
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 41            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -243060542206228177
+	 hash_stk_data == -1335029964044465054
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == 41
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 40            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -5016510847339045618
+	 hash_stk_data == 3551605896549733485
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == 40
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 39            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -497238002700835487
+	 hash_stk_data == -8356018888823730813
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == 39
+	 	 [39] == bad  (poison)
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 38            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -5270688307833652928
+	 hash_stk_data == -188235666757302078
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == 38
+	 	 [38] == bad  (poison)
+	 	 [39] == bad  (poison)
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 37            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 9199385775946120099
+	 hash_stk_data == -7268424071656422302
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == 37
+	 	 [37] == bad  (poison)
+	 	 [38] == bad  (poison)
+	 	 [39] == bad  (poison)
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 36            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 4425935470813302658
+	 hash_stk_data == 1450626766507445217
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == 36
+	 	 [36] == bad  (poison)
+	 	 [37] == bad  (poison)
+	 	 [38] == bad  (poison)
+	 	 [39] == bad  (poison)
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 35            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -6029762490521906203
+	 hash_stk_data == 3251464471963634307
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == 35
+	 	 [35] == bad  (poison)
+	 	 [36] == bad  (poison)
+	 	 [37] == bad  (poison)
+	 	 [38] == bad  (poison)
+	 	 [39] == bad  (poison)
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 34            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 7643531278054827972
+	 hash_stk_data == 999529000087405382
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == 34
+	 	 [34] == bad  (poison)
+	 	 [35] == bad  (poison)
+	 	 [36] == bad  (poison)
+	 	 [37] == bad  (poison)
+	 	 [38] == bad  (poison)
+	 	 [39] == bad  (poison)
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 33            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 3666861288125049383
+	 hash_stk_data == -5967973811325222814
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == 33
+	 	 [33] == bad  (poison)
+	 	 [34] == bad  (poison)
+	 	 [35] == bad  (poison)
+	 	 [36] == bad  (poison)
+	 	 [37] == bad  (poison)
+	 	 [38] == bad  (poison)
+	 	 [39] == bad  (poison)
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 32            
+	 capacity == 128            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -1106589017007768058
+	 hash_stk_data == 8962588341122336101
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == 32
+	 	 [32] == bad  (poison)
+	 	 [33] == bad  (poison)
+	 	 [34] == bad  (poison)
+	 	 [35] == bad  (poison)
+	 	 [36] == bad  (poison)
+	 	 [37] == bad  (poison)
+	 	 [38] == bad  (poison)
+	 	 [39] == bad  (poison)
+	 	 [40] == bad  (poison)
+	 	 [41] == bad  (poison)
+	 	 [42] == bad  (poison)
+	 	 [43] == bad  (poison)
+	 	 [44] == bad  (poison)
+	 	 [45] == bad  (poison)
+	 	 [46] == bad  (poison)
+	 	 [47] == bad  (poison)
+	 	 [48] == bad  (poison)
+	 	 [49] == bad  (poison)
+	 	 [50] == bad  (poison)
+	 	 [51] == bad  (poison)
+	 	 [52] == bad  (poison)
+	 	 [53] == bad  (poison)
+	 	 [54] == bad  (poison)
+	 	 [55] == bad  (poison)
+	 	 [56] == bad  (poison)
+	 	 [57] == bad  (poison)
+	 	 [58] == bad  (poison)
+	 	 [59] == bad  (poison)
+	 	 [60] == bad  (poison)
+	 	 [61] == bad  (poison)
+	 	 [62] == bad  (poison)
+	 	 [63] == bad  (poison)
+	 	 [64] == bad  (poison)
+	 	 [65] == bad  (poison)
+	 	 [66] == bad  (poison)
+	 	 [67] == bad  (poison)
+	 	 [68] == bad  (poison)
+	 	 [69] == bad  (poison)
+	 	 [70] == bad  (poison)
+	 	 [71] == bad  (poison)
+	 	 [72] == bad  (poison)
+	 	 [73] == bad  (poison)
+	 	 [74] == bad  (poison)
+	 	 [75] == bad  (poison)
+	 	 [76] == bad  (poison)
+	 	 [77] == bad  (poison)
+	 	 [78] == bad  (poison)
+	 	 [79] == bad  (poison)
+	 	 [80] == bad  (poison)
+	 	 [81] == bad  (poison)
+	 	 [82] == bad  (poison)
+	 	 [83] == bad  (poison)
+	 	 [84] == bad  (poison)
+	 	 [85] == bad  (poison)
+	 	 [86] == bad  (poison)
+	 	 [87] == bad  (poison)
+	 	 [88] == bad  (poison)
+	 	 [89] == bad  (poison)
+	 	 [90] == bad  (poison)
+	 	 [91] == bad  (poison)
+	 	 [92] == bad  (poison)
+	 	 [93] == bad  (poison)
+	 	 [94] == bad  (poison)
+	 	 [95] == bad  (poison)
+	 	 [96] == bad  (poison)
+	 	 [97] == bad  (poison)
+	 	 [98] == bad  (poison)
+	 	 [99] == bad  (poison)
+	 	 [100] == bad  (poison)
+	 	 [101] == bad  (poison)
+	 	 [102] == bad  (poison)
+	 	 [103] == bad  (poison)
+	 	 [104] == bad  (poison)
+	 	 [105] == bad  (poison)
+	 	 [106] == bad  (poison)
+	 	 [107] == bad  (poison)
+	 	 [108] == bad  (poison)
+	 	 [109] == bad  (poison)
+	 	 [110] == bad  (poison)
+	 	 [111] == bad  (poison)
+	 	 [112] == bad  (poison)
+	 	 [113] == bad  (poison)
+	 	 [114] == bad  (poison)
+	 	 [115] == bad  (poison)
+	 	 [116] == bad  (poison)
+	 	 [117] == bad  (poison)
+	 	 [118] == bad  (poison)
+	 	 [119] == bad  (poison)
+	 	 [120] == bad  (poison)
+	 	 [121] == bad  (poison)
+	 	 [122] == bad  (poison)
+	 	 [123] == bad  (poison)
+	 	 [124] == bad  (poison)
+	 	 [125] == bad  (poison)
+	 	 [126] == bad  (poison)
+	 	 [127] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 31            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 1811556161914926073
+	 hash_stk_data == 8119318266074521347
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == 31
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 30            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 9122487822234331608
+	 hash_stk_data == 3950506670217689018
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == 30
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 29            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -1216544275952775621
+	 hash_stk_data == 102232390840317282
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == 29
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 28            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 6094387384366629914
+	 hash_stk_data == -8856228158508498727
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == 28
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 27            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 3281736033413618301
+	 hash_stk_data == 3168458178813101059
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == 27
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 26            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -7854076379976527780
+	 hash_stk_data == -6742786957333997250
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == 26
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 25            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 253635595545916607
+	 hash_stk_data == 7410694425172842850
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == 25
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 24            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 7564567255865322142
+	 hash_stk_data == -7716060767463136419
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == 24
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 23            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -8283930726393322255
+	 hash_stk_data == -237535401399458557
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == 23
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 22            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -972999066073916720
+	 hash_stk_data == 2068884125084309682
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == 22
+	 	 [22] == bad  (poison)
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 21            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 7134712909448527667
+	 hash_stk_data == -2257065827223928478
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == 21
+	 	 [21] == bad  (poison)
+	 	 [22] == bad  (poison)
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 20            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -4001099503941618414
+	 hash_stk_data == -8610512053299321903
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == 20
+	 	 [20] == bad  (poison)
+	 	 [21] == bad  (poison)
+	 	 [22] == bad  (poison)
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 19            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -6813750854894630027
+	 hash_stk_data == 3407813928598737411
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == 19
+	 	 [19] == bad  (poison)
+	 	 [20] == bad  (poison)
+	 	 [21] == bad  (poison)
+	 	 [22] == bad  (poison)
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 18            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 497180805424775508
+	 hash_stk_data == 4536531754310312502
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == 18
+	 	 [18] == bad  (poison)
+	 	 [19] == bad  (poison)
+	 	 [20] == bad  (poison)
+	 	 [21] == bad  (poison)
+	 	 [22] == bad  (poison)
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 17            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == 8604892780947219895
+	 hash_stk_data == -1920639591965315742
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == 17
+	 	 [17] == bad  (poison)
+	 	 [18] == bad  (poison)
+	 	 [19] == bad  (poison)
+	 	 [20] == bad  (poison)
+	 	 [21] == bad  (poison)
+	 	 [22] == bad  (poison)
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 29
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 16            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -2530919632442926186
+	 hash_stk_data == 3690766234181070421
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == bad  (poison)
+	 	 [17] == bad  (poison)
+	 	 [18] == bad  (poison)
+	 	 [19] == bad  (poison)
+	 	 [20] == bad  (poison)
+	 	 [21] == bad  (poison)
+	 	 [22] == bad  (poison)
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
+DUMP  in file: src/main.cpp, in line: 32
+	 ptr_stk  == 0x7ffdc6e52580             
+	 ptr_data == 0x5908231b82e8             
+	 size     == 16            
+	 capacity == 32            
+	 len type of element == 4
+	 canary_1 == c0ffee
+	 canary_2 == c0ffee
+	 canary_3 == c0ffee
+	 canary_4 == c0ffee
+	 hash_stk      == -2530919632442926186
+	 hash_stk_data == 3690766234181070421
+
+
+	 elements of stack:
+	 	 [0] == 1
+	 	 [1] == 2
+	 	 [2] == 3
+	 	 [3] == 4
+	 	 [4] == 5
+	 	 [5] == 6
+	 	 [6] == 7
+	 	 [7] == 8
+	 	 [8] == 9
+	 	 [9] == 10
+	 	 [10] == 11
+	 	 [11] == 12
+	 	 [12] == 13
+	 	 [13] == 14
+	 	 [14] == 15
+	 	 [15] == 16
+	 	 [16] == bad  (poison)
+	 	 [17] == bad  (poison)
+	 	 [18] == bad  (poison)
+	 	 [19] == bad  (poison)
+	 	 [20] == bad  (poison)
+	 	 [21] == bad  (poison)
+	 	 [22] == bad  (poison)
+	 	 [23] == bad  (poison)
+	 	 [24] == bad  (poison)
+	 	 [25] == bad  (poison)
+	 	 [26] == bad  (poison)
+	 	 [27] == bad  (poison)
+	 	 [28] == bad  (poison)
+	 	 [29] == bad  (poison)
+	 	 [30] == bad  (poison)
+	 	 [31] == bad  (poison)
+
+
