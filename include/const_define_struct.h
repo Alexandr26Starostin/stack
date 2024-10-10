@@ -1,10 +1,13 @@
 #ifndef CONST_DEFINE_STRUCT_H
 #define CONST_DEFINE_STRUCT_H
 
+/*
 #define DEBUG_ASSERT
-#define CANARY_STK
-#define CANARY_STK_DATA
-#define HASH_STK
+#define CANARY_STK_NOT
+#define CANARY_STK_DATA_NOT
+#define HASH_STK_NOT
+#define MEMSET_NOT
+*/
 
 //------------------------------------------------------------------
 
@@ -57,7 +60,7 @@ struct stk_t
 		#include "stdint.h"
 		typedef uint64_t canary_t;
 
-		const canary_t canary = 0xC0FFEE;
+		const canary_t canary = 0xC0FFEE0FF1CE;
 	#endif
 
 #endif

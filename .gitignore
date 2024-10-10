@@ -1,3 +1,4 @@
 stack
 build
+logfile.log
 *.txt
